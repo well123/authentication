@@ -1,5 +1,5 @@
 {
-    "name": "authentication",
+    "name": "wubin/authentication",
     "description": "zhiming authentication modules",
     "license": "zhiming.mit",
     "version": "1.0.0",
