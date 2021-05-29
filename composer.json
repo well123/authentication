@@ -1,0 +1,27 @@
+{
+    "name": "authentication",
+    "description": "zhiming authentication modules",
+    "license": "zhiming.mit",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "..",
+            "email": "940962556@qq.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wubin\\Authentication\\AuthProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Wubin\\Authentication\\": "src"
+        }
+    }
+}
